@@ -1,0 +1,5 @@
+<!-- Copie estas linhas para android/app/src/main/AndroidManifest.xml,
+     dentro de <manifest> e antes de <application>. -->
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="29" />
